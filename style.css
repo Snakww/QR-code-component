@@ -6,10 +6,16 @@ body {
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    background-color: hsl(212, 45%, 89%);
+    background-color: var(--cinza);
     font-family: 'Outfit', system-ui, sans-serif;
     font-weight: 400;
     font-size: 1rem;
+}
+:root{
+--branco: hsl(0, 0%, 100%)
+--cinzaclaro: hsl(212, 45%, 89%)
+--cinza: hsl(216, 15%, 48%)
+--cinzaescuro: hsl(218, 44%, 22%)
 }
 
 p{
@@ -21,10 +27,10 @@ p{
 .caixa {
     padding: 1.5rem;
     width: 550px;
-    border: 5px solid   hsl(212, 45%, 89%);
-    background-color: hsl(0, 0%, 100%);
+    border: 5px solid hsl(212, 45%, 89%);
+    background-color: var(--branco);
     border-radius: 12px;
-    box-shadow: 0 12px 30px hsl(216, 15%, 48%);
+    box-shadow: 0 12px 30px var(--cinza);
     display: flex;
     flex-direction: column;
     align-items: center;
